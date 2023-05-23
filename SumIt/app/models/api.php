@@ -26,7 +26,7 @@ class ExposeTextApi
             CURLOPT_CUSTOMREQUEST => "GET",
             CURLOPT_HTTPHEADER => [
                 "X-RapidAPI-Host: youtube-subtitles-captions-downloader.p.rapidapi.com",
-                "X-RapidAPI-Key: 36c8958329msh94e85360409bc31p19637fjsn21c12729f25d"
+                "X-RapidAPI-Key: ..."
             ],
         ]);
 
@@ -59,7 +59,7 @@ class ExposeTextApi
             CURLOPT_POSTFIELDS => "url=" . $url . "&percentage=" . $percentage,
             CURLOPT_HTTPHEADER => [
                 "X-RapidAPI-Host: text-summarize-pro.p.rapidapi.com",
-                "X-RapidAPI-Key: 36c8958329msh94e85360409bc31p19637fjsn21c12729f25d",
+                "X-RapidAPI-Key: ...",
                 "content-type: application/x-www-form-urlencoded"
             ],
         ]);
@@ -96,7 +96,7 @@ class ExposeTextApi
             ]),
             CURLOPT_HTTPHEADER => [
                 "X-RapidAPI-Host: summarize-texts.p.rapidapi.com",
-                "X-RapidAPI-Key: 36c8958329msh94e85360409bc31p19637fjsn21c12729f25d",
+                "X-RapidAPI-Key: ...",
                 "content-type: application/json"
             ],
         ]);
